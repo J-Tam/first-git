@@ -13,6 +13,7 @@ Private Sub Workbook_Open()
 
     Application.OnKey "{F1}", ""
     Application.OnKey "^k", "frmDiffDataShow"
+    debug.print "test"
 
 End Sub
 
